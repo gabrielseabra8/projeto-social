@@ -9,7 +9,7 @@
 
 html, body{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: black;
 }
 
@@ -23,7 +23,7 @@ body{
 main{
     position: relative;
     height: 100vh;
-    width: 100vh;
+   
     
 
 }
@@ -38,4 +38,12 @@ section#telefone{
     background-color: blue;
     background: url(../imagens/frame-iphone.png) no-repeat;
     
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 268px;
 }
